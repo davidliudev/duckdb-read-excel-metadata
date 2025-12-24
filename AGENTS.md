@@ -3,7 +3,7 @@
 ## Project Structure
 
 - `src/excel/`: DuckDB Excel extension sources.
-  - `src/excel/excel_extension.cpp`: extension entry points and registration.
+  - `src/excel/excel_metadata_extension.cpp`: extension entry points and registration.
   - `src/excel/xlsx/`: XLSX read/write implementation (zip + XML parsing).
   - `src/excel/numformat/`: number-formatting implementation used by `text(...)`.
 - `test/sql/excel/`: DuckDB SQL logic tests (`*.test`).
